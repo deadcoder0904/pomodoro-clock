@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="app">
+        <h1 class="text-center text-success"><b>POMODORO CLOCK</b></h1>
+        <div class="container1">
+            <span id="break">Break Length</span>
+            <span id="session">Session Length</span>
+            <div id="break-item">
+                <span id="break-minus">-</span>
+                <span id="break-timer">5</span>
+                <span id="break-plus">+</span>
+            </div>
+            <div id="session-item">
+                <span id="session-minus">-</span>
+                <span id="session-timer">25</span>
+                <span id="session-plus">+</span>
+            </div>
+        </div>
+        <div class="top-row text-primary">
+            <h2 id="status" class="text-info text-center">Session!</h2>
+            <canvas id="progress"></canvas>
+            <h1 id="timer" class="text-center"></h1>
+            <div class="text-primary bottom">
+                <button type="button" id="start" class="btn btn-success"> Start </button>
+                <button type="button" id="pause" class="btn btn-warning"> Pause </button>
+                <button type="button" id="reset" class="btn btn-danger"> Reset </button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/waterbubble.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

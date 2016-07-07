@@ -1,0 +1,80 @@
+$font-size: 180%
+$padding: 2%
+$plusMinusColor: #156718
+
+=timerFont
+  font-size: 300%
+  padding: 1.5%
+  cursor: default
+  color: #f0ad4e
+
+=plusMinusFont
+  font-size: 250%
+
+=paddingAndFont
+  padding: $padding
+  font-size: $font-size
+
+=heading
+  +paddingAndFont
+  color: #36786f
+  position: absolute
+
+=plusMinusCommon
+  +paddingAndFont
+  +plusMinusFont
+  cursor: pointer
+  color: $plusMinusColor
+  position: absolute
+  top: 20%
+
+body
+  background: #161d33
+
+
+#app
+  min-width: 1000px
+
+#break
+  +heading
+  left: 25%
+
+#session
+  +heading
+  right: 25%
+
+#break-minus
+  +plusMinusCommon
+  left: 21%
+
+#break-timer
+  +plusMinusCommon
+  +timerFont
+  left: 30%
+
+#break-plus
+  +plusMinusCommon
+  left: 39%
+
+#session-minus
+  +plusMinusCommon
+  right: 39%
+
+#session-timer
+  +plusMinusCommon
+  +timerFont
+  right: 30%
+
+#session-plus
+  +plusMinusCommon
+  right: 21%
+
+.top-row
+  position: absolute
+  top: 40%
+  left: 43%
+
+.bottom
+  position: relative
+  bottom: 1%
+

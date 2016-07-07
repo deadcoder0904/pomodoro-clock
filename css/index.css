@@ -1,0 +1,98 @@
+body {
+  background: #161d33; }
+
+#app {
+  min-width: 1000px; }
+
+#break {
+  padding: 2%;
+  font-size: 180%;
+  color: #36786f;
+  position: absolute;
+  left: 25%; }
+
+#session {
+  padding: 2%;
+  font-size: 180%;
+  color: #36786f;
+  position: absolute;
+  right: 25%; }
+
+#break-minus {
+  padding: 2%;
+  font-size: 180%;
+  font-size: 250%;
+  cursor: pointer;
+  color: #156718;
+  position: absolute;
+  top: 20%;
+  left: 21%; }
+
+#break-timer {
+  padding: 2%;
+  font-size: 180%;
+  font-size: 250%;
+  cursor: pointer;
+  color: #156718;
+  position: absolute;
+  top: 20%;
+  font-size: 300%;
+  padding: 1.5%;
+  cursor: default;
+  color: #f0ad4e;
+  left: 30%; }
+
+#break-plus {
+  padding: 2%;
+  font-size: 180%;
+  font-size: 250%;
+  cursor: pointer;
+  color: #156718;
+  position: absolute;
+  top: 20%;
+  left: 39%; }
+
+#session-minus {
+  padding: 2%;
+  font-size: 180%;
+  font-size: 250%;
+  cursor: pointer;
+  color: #156718;
+  position: absolute;
+  top: 20%;
+  right: 39%; }
+
+#session-timer {
+  padding: 2%;
+  font-size: 180%;
+  font-size: 250%;
+  cursor: pointer;
+  color: #156718;
+  position: absolute;
+  top: 20%;
+  font-size: 300%;
+  padding: 1.5%;
+  cursor: default;
+  color: #f0ad4e;
+  right: 30%; }
+
+#session-plus {
+  padding: 2%;
+  font-size: 180%;
+  font-size: 250%;
+  cursor: pointer;
+  color: #156718;
+  position: absolute;
+  top: 20%;
+  right: 21%; }
+
+.top-row {
+  position: absolute;
+  top: 40%;
+  left: 43%; }
+
+.bottom {
+  position: relative;
+  bottom: 1%; }
+
+/*# sourceMappingURL=index.css.map */
